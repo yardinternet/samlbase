@@ -1,5 +1,5 @@
 {
-    "name": "gogentooss/samlbase",
+    "name": "yard/samlbase",
     "type": "library",
     "description": "Library for SAML2 Service Providers in PHP",
     "keywords": ["saml2", "SAML2", "SAMLBase", "PHP", "SSO"],

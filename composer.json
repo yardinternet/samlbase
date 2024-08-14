@@ -1,0 +1,28 @@
+{
+    "name": "gogentooss/samlbase",
+    "type": "library",
+    "description": "Library for SAML2 Service Providers in PHP",
+    "keywords": ["saml2", "SAML2", "SAMLBase", "PHP", "SSO"],
+    "homepage": "https://github.com/GoGentoOSS/SAMLBase",
+    "license": "OSL-3.0",
+    "version": "1.6.3",
+    "authors": [
+        {
+            "name": "Ron van der Molen",
+            "email": "info@gogento.com",
+            "homepage": "https://gogento.com",
+            "role": "CEO"
+        }
+    ],
+    "require": {
+        "symfony/dependency-injection": "^5.4",
+        "robrichards/xmlseclibs": "~3.1.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "twig/twig": "^3.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "GoGentoOSS\\SAMLBase": "src/"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+<samlp:AttributeQuery
+        xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+        xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+        Version="2.0"
+        IssueInstant="{{ Timestamp }}">
+    <saml:Subject>
+        <saml:NameID
+                Format="{{ NameIDFormat }}">
+            {{ NameID }}
+        </saml:NameID>
+    </saml:Subject>
+</samlp:AttributeQuery>

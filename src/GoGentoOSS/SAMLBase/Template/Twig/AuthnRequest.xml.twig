@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<samlp:AuthnRequest xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+                    xmlns:saml="urn:oasis:names:tc:SAML:2.0:protocol"
+                    Version="2.0"
+                    IssueInstant="{{ Timestamp }}"
+                    ForceAuthn="{{ ForceAuthn }}"
+                    IsPassive="{{ IsPassive }}"
+                    Destination="{{ Destination }}"
+                    ProtocolBinding="{{ ProtocolBinding }}"
+                    AssertionConsumerServiceURL="{{ SPReturnUrl }}">
+
+    <saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">{{ Issuer }}</saml:Issuer>
+
+    <samlp:NameIDPolicy Format="{{ NameIDFormat }}" AllowCreate="true" />
+</samlp:AuthnRequest>

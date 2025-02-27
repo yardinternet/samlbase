@@ -5,7 +5,6 @@
     "keywords": ["saml2", "SAML2", "SAMLBase", "PHP", "SSO"],
     "homepage": "https://github.com/GoGentoOSS/SAMLBase",
     "license": "OSL-3.0",
-    "version": "1.6.3",
     "authors": [
         {
             "name": "Ron van der Molen",
@@ -15,7 +14,7 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^7.4 || ^8.1",
         "symfony/dependency-injection": "^5.4 || ^6.4",
         "robrichards/xmlseclibs": "~3.1.0",
         "guzzlehttp/guzzle": "^7.5",
